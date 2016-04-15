@@ -15,6 +15,7 @@
 		1C4A59A81C97F27400A94190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A59A61C97F27400A94190 /* LaunchScreen.storyboard */; };
 		1C4A59B31C97F27400A94190 /* _3_15_demo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A59B21C97F27400A94190 /* _3_15_demo2Tests.m */; };
 		1C4A59BE1C97F27400A94190 /* _3_15_demo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A59BD1C97F27400A94190 /* _3_15_demo2UITests.m */; };
+		1C4A59CD1C97F41300A94190 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A59CC1C97F41300A94190 /* myViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1C4A59B91C97F27400A94190 /* 03_15_demo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 03_15_demo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4A59BD1C97F27400A94190 /* _3_15_demo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_15_demo2UITests.m; sourceTree = "<group>"; };
 		1C4A59BF1C97F27400A94190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4A59CB1C97F41300A94190 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		1C4A59CC1C97F41300A94190 /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1C4A599C1C97F27400A94190 /* AppDelegate.m */,
 				1C4A599E1C97F27400A94190 /* ViewController.h */,
 				1C4A599F1C97F27400A94190 /* ViewController.m */,
+				1C4A59CB1C97F41300A94190 /* myViewController.h */,
+				1C4A59CC1C97F41300A94190 /* myViewController.m */,
 				1C4A59A11C97F27400A94190 /* Main.storyboard */,
 				1C4A59A41C97F27400A94190 /* Assets.xcassets */,
 				1C4A59A61C97F27400A94190 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				1C4A59A01C97F27400A94190 /* ViewController.m in Sources */,
 				1C4A599D1C97F27400A94190 /* AppDelegate.m in Sources */,
+				1C4A59CD1C97F41300A94190 /* myViewController.m in Sources */,
 				1C4A599A1C97F27400A94190 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
